@@ -1,0 +1,74 @@
+.container{
+    background-color: black;
+    display: flex;
+    height:1200px;
+    flex-direction:column;
+    flex: 2;
+}
+.one{
+    border: 1px solid white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sub-one, .sub-two{
+    flex: 1;
+    width: 500px;
+    height: 400px;
+}
+.sub-two{
+    position:absolute;
+    top: 100px; 
+    right: 300px; 
+    font-size: 20px; 
+    color: white;
+    justify-self:center;
+
+}
+.two{
+    border: 1px solid white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.netflix, .para{
+    flex: 1;
+    width: 500px;
+    height: 500px;
+}
+.netflix{
+    top:500px;
+}
+.para{
+    position:absolute;
+    top: 500px; 
+    right: 300px; 
+    font-size: 20px; 
+    color: white;
+}
+.three{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+}
+.everywhere{
+    position: absolute;
+    top:1000px;
+    left:200px;
+    font-size: 20px;
+    color: white;
+}
+.Watch{
+    float: right;
+    position: absolute;
+    top: 850px;
+    right: 100px;
+}
+.empty{
+    background-color: red;
+    height: 100px;
+    border-top: 1px solid white;
+}
